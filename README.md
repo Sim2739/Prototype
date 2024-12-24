@@ -7,21 +7,21 @@ Install Dependencies
 
 
 ## Run:
-pip install opencv-python mediapipe
+``pip install opencv-python mediapipe``
 
 ## How to Use
 1. For Real-Time Detection
 Connect a webcam to your computer.
 Update the cv2.VideoCapture line in the script to:
-cap = cv2.VideoCapture(0)
+``cap = cv2.VideoCapture(0)``
 
 Run the script:
-python pose_detection.py
+``python pose_detection.py``
 
 3. For Pre-Recorded Videos
 Place your video file (e.g., exercise_video.mp4) in the project directory.
 Update the video_path variable in the script:
-video_path = "exercise_video.mp4"
+``video_path = "exercise_video.mp4"``
 
 Run the script:
-python pose_detection.py
+``python pose_detection.py``
