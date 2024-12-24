@@ -16,7 +16,7 @@ Update the cv2.VideoCapture line in the script to:
 ``cap = cv2.VideoCapture(0)``
 
 Run the script:
-``python pose_detection.py``
+``python main.py``
 
 3. For Pre-Recorded Videos
 Place your video file (e.g., exercise_video.mp4) in the project directory.
@@ -24,4 +24,4 @@ Update the video_path variable in the script:
 ``video_path = "exercise_video.mp4"``
 
 Run the script:
-``python pose_detection.py``
+``python main.py``
